@@ -135,7 +135,7 @@ tabItem(tabName = "model", fluidPage(
     ), 
     mainPanel(h3('Model Data'), 
               tableOutput('fit'), 
-              h3("Prediction Output for Total"), h5('Prediction will not show for bagged Trees and Random Forest'),
+              h3("Prediction Output for Total (in millions)"), h5('Prediction will not show for bagged Trees and Random Forest'),
               textOutput('prediction'))
     
 ))), 
