@@ -7,7 +7,7 @@ library(plotly)
 library(readr)
 library(readxl)
 
-pharmData<-read_csv("C:/Users/pcobb/Desktop/FinalProject/data.csv")
+pharmData<-read_csv("data.csv")
 names(pharmData)<-c('location','time','perHealthSpend','percGDP','USDperCap','flag','total')
 
 
